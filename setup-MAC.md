@@ -84,15 +84,20 @@ File này chứa danh sách tất cả thư viện Python cần thiết.
 
 ### 2. Cài đặt dependencies với pip
 Đảm bảo bạn đã kích hoạt môi trường conda `mcp`:  
+
 ```bash
 conda activate mcp
-Sau đó, chạy:
+```
 
+Sau đó, chạy:
+```bash
 pip install -r requirements.txt
+```
 
 Bắt đầu với VS Code
 
 Mở dự án trong Visual Studio Code bằng lệnh:
+
 ```bash
 code .
 ```
