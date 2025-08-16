@@ -55,14 +55,15 @@ Lấy bản sao của mã nguồn về máy tính của bạn.
 1. Mở **Terminal mới**.  
 2. Điều hướng đến thư mục gốc của dự án:  
    ```bash
-   cd ~/Documents/Projects/llmprojects
+   cd ~/Documents/Projects/agents
    ls
 (dùng ls để kiểm tra các thư mục con trong dự án).
 
 3. Tạo môi trường mới:
 
+```bash
 conda create -n mcp python=3.12 -y
-
+```
 
 Quá trình này có thể mất 20–30 phút nếu đây là lần đầu cài đặt Anaconda.
 
@@ -70,14 +71,15 @@ Nếu gặp lỗi, có thể cân nhắc dùng Miniconda hoặc Virtual Environm
 
 Kích hoạt môi trường:
 
+```bash
 conda activate mcp
-
+```
 ---
 
 ## Phần 3: Cài đặt Dependencies
 
 ### 1. Kiểm tra file yêu cầu
-Trong thư mục gốc của dự án (`agents/curator`), bạn sẽ thấy file **requirements.txt** .  
+Trong thư mục gốc của dự án (`agents/`), bạn sẽ thấy file **requirements.txt** .  
 File này chứa danh sách tất cả thư viện Python cần thiết.
 
 ### 2. Cài đặt dependencies với pip
@@ -91,5 +93,6 @@ pip install -r requirements.txt
 Bắt đầu với VS Code
 
 Mở dự án trong Visual Studio Code bằng lệnh:
-
+```bash
 code .
+```
