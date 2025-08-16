@@ -51,3 +51,5 @@
   - [MCP Marketplace – Glama.ai](https://glama.ai/mcp)
   - [Top 11 Essential MCP Libraries – Hugging Face Blog](https://huggingface.co/blog/LLMhacker/top-11-essential-mcp-libraries)
   - [OpenAI Agents SDK Documentation](https://openai.github.io/openai-agents-python/)
+ 
+    **Lưu ý** Tất cả những gì mình chia sẽ đều là những gì mình học và tổng hợp được! NO COMMERCIAL INTENT!
