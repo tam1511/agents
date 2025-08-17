@@ -1,5 +1,3 @@
-# agents
-
 # 🤖 AI Trends Content Curator Agents
 
 ## 📝 Mô tả dự án
